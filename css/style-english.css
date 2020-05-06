@@ -1,0 +1,61 @@
+/*
+=================================================
+	Designed and Developed by Ergo Ventures Ltd.
+=================================================
+*/
+/*@font-face {
+    font-family: 'kalpurush_ansiregular';
+    src: url('../font/kalpurush_ansi_1-webfont.eot');
+    src: url('../font/kalpurush_ansi_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/kalpurush_ansi_1-webfont.woff') format('woff'),
+         url('../font/kalpurush_ansi_1-webfont.ttf') format('truetype'),
+         url('../font/kalpurush_ansi_1-webfont.svg#kalpurush_ansiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face{
+	font-family:'solaimanLipi';
+	src:url("../font/SolaimanLipiNormal.woff"),
+		url("../font/solaimanlipi.ttf"),
+		url("../font/SOLAIMA0.eot");
+}
+/*@font-face {
+    font-family: 'CantarellRegular';
+    src: url('../font/Cantarell-Regular-webfont.eot');
+    src: url('../font/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Cantarell-Regular-webfont.woff') format('woff'),
+         url('../font/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('../font/Cantarell-Regular-webfont.svg#CantarellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+	font-family:"Conv_MyriadPro-Regular";
+	src: url('../font/MyriadPro-Regular.eot');
+	src: local('☺'), url('../font/MyriadPro-Regular.woff') format('woff'), url('../font/MyriadPro-Regular.ttf') format('truetype'), url('../font/MyriadPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:"Conv_calibri";
+	src: url('../font/calibri_1.eot');
+	src: local('☺'), url('../font/calibri_1.ttf') format('truetype'), url('../font/calibri_1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#header a.register {
+	padding:0 14px 0 23px;
+}
+body, ul.quicktabs_tabs.quicktabs-style-zen li a, table thead tr th, table tbody tr td, input.button, input, select, textarea{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ei-title h2, .ei-title p {
+	font-family:'Conv_MyriadPro-Regular';
+}
+.block-wrapper .bkash-slogan, .sti-menu li a h2, .sti-menu li a h3 {
+	font-family:'Conv_calibri', calibri;
+}
+.block-wrapper .bkash-slogan .more {
+	padding-left:7px;
+}
